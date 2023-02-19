@@ -6,6 +6,22 @@
    src: url(Andika-Regular.ttf);
 }
 
+/* THAI */
+
+@font-face {
+   font-family: toThai-Sarabun;
+   src: url(Sarabun-Regular.ttf);
+}
+
+.letraSarabun{
+	font-family: toThai-Sarabun;
+	font-size: 25px;
+}
+
+td{
+	width: 300px;
+}
+
 body {
   background-color: #8CA8CD;
   font-family: myFirstFont;
