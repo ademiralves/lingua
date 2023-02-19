@@ -22,6 +22,18 @@ td{
 	width: 300px;
 }
 
+ruby {
+  display: inline-flex;
+  flex-direction: column-reverse;
+}
+
+rb, rt {
+  display: inline;
+  line-height: 1.6;
+  font-size:15px;
+  font-family: myFirstFont;
+}
+
 body {
   background-color: #8CA8CD;
   font-family: myFirstFont;
