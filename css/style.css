@@ -34,6 +34,11 @@ rb, rt {
   font-family: myFirstFont;
 }
 
+audio{
+	width: 100px; 
+	filter: sepia(100%) saturate(400%) grayscale(0) contrast(200%) hue-rotate(338deg) invert(90%);
+}
+
 body {
   background-color: #8CA8CD;
   font-family: myFirstFont;
