@@ -1,0 +1,150 @@
+/* ____________________________________________________________________________________________________ */
+/* ●IMAGE */
+/* ____________________________________________________________________________________________________ */
+
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(Andika-Regular.ttf);
+}
+
+.imagem{
+	max-width:100px;
+	width: auto;
+}
+
+html{
+  
+  background: linear-gradient(180deg, rgba(76,129,172,1) 0%, rgba(131,187,205,1) 28%, rgba(248,241,225,1) 43%, rgba(255,236,180,1) 90%);
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+body {
+  
+  
+  background-image: url('bgimg.svg');
+  background-repeat: no-repeat;
+
+  
+  font-family: myFirstFont;
+  font-size: 12px;
+}
+/* ____________________________________________________________________________________________________ */
+/* ●FILTRA BUSCA */
+/* ____________________________________________________________________________________________________ */
+
+.myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 50%;
+  font-size: 20px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  border-radius: 50px / 15px;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+li {
+	display:inline-block;
+}
+
+.ordem{
+	
+	display: list-item;
+	list-style-position: inside;
+	
+	background-color: white;
+	width: auto;
+	height: auto;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #6F7179;
+    padding: 5px;
+}
+
+
+/* ____________________________________________________________________________________________________ */
+/* ●Dimensões do iframe list-style-type: decimal; */ 
+/* ____________________________________________________________________________________________________ */
+.proportion {
+      width:200px;
+      height:480px;
+	  /*resize: both;*/
+	  border: none;
+	  border-radius: 50px / 15px;
+}
+
+/* ____________________________________________________________________________________________________ */
+/* ●Formata Letra */
+/* ____________________________________________________________________________________________________ */
+.letra{
+		font-family: Tahoma;
+		font-size: 20px;
+}
+
+.resizable-content {
+  width:200px;
+  height:300px;
+  border:none;
+}
+
+.casa {
+  font-size: 80px;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* ____________________________________________________________________________________________________ */
+/* ●Dimensões do iframe de proportion */
+/* ____________________________________________________________________________________________________ */
+.proportion1 {
+      width:95%;
+      height:15000px;
+	  border-style: solid;
+	  border-radius: 50px / 15px;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #282A36;
+  color:white;
+}
+
+/* ____________________________________________________________________________________________________ */
+/* BLOCO DAS DIVS */
+/* ____________________________________________________________________________________________________ */
+
+
+.container {
+    
+	background-color: white;
+	width: auto;
+	height: 460px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #6F7179;
+    padding: 5px;
+
+  }
