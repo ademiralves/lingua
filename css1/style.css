@@ -15,15 +15,16 @@
 
 html{
   
-  background: linear-gradient(180deg, rgba(76,129,172,1) 0%, rgba(131,187,205,1) 28%, rgba(248,241,225,1) 43%, rgba(255,236,180,1) 90%);
+  /*background: linear-gradient(180deg, rgba(76,129,172,1) 0%, rgba(131,187,205,1) 28%, rgba(248,241,225,1) 43%, rgba(255,236,180,1) 90%);
   background-repeat: no-repeat;
-  height: auto;
+  height: auto;*/
+  
+  background-color: #EADFD2;
 }
 
 body {
   
   
-  background-image: url('bgimg.svg');
   background-repeat: no-repeat;
 
   
@@ -80,7 +81,7 @@ li {
 /* ____________________________________________________________________________________________________ */
 .proportion {
       width:200px;
-      height:480px;
+      height:485px;
 	  /*resize: both;*/
 	  border: none;
 	  border-radius: 50px / 15px;
