@@ -13,6 +13,11 @@
 	width: auto;
 }
 
+.imagem2{
+	max-width:60px;
+	width: auto;
+}
+
 html{
   
   /*background: linear-gradient(180deg, rgba(76,129,172,1) 0%, rgba(131,187,205,1) 28%, rgba(248,241,225,1) 43%, rgba(255,236,180,1) 90%);
@@ -155,3 +160,30 @@ a{
     padding: 5px;
 
   }
+  
+body {
+	margin:0;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.icon-bar a:hover {
+  background-color: red;
+}
