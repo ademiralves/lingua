@@ -173,6 +173,7 @@ body {margin:0;}
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  
 }
 
 .icon-bar a {
@@ -182,6 +183,7 @@ body {margin:0;}
   transition: all 0.3s ease;
   color: black;
   font-size: 20px;
+  border-radius: 15px;
 }
 
 .icon-bar a:hover {
