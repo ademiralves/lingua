@@ -20,6 +20,48 @@
    src: url(Sarabun-Regular.ttf);
 }
 
+/* LAO */
+
+@font-face {
+   font-family: toLao-Dhyana;
+   src: url(Dhyana-Regular.ttf);
+}
+
+/* KHMER */
+
+@font-face {
+   font-family: toKhmer-Samsung;
+   src: url(Samsung-Khmer-Regular.ttf);
+}
+
+/* VIETNAMESE */
+
+@font-face {
+   font-family: toVietnamese-ThuphapXuan;
+   src: url(Thu_Phap_Thanh_Cong_Unicode.ttf);
+}
+
+/* TIBETAN */
+
+@font-face {
+   font-family: toTibetan-Wangdi;
+   src: url(wangdi.ttf);
+}
+
+/* CHINESE */
+
+@font-face {
+   font-family: toChinese-Ngaan;
+   src: url(ngaan.ttf);
+}
+
+/* KOREAN */
+
+@font-face {
+   font-family: toKorean-Hcho;
+   src: url(cwTeXQKai-Medium.ttf);
+}
+
 body {
   background-color: black;
   font-family: myFirstFont;
@@ -36,6 +78,37 @@ body {
 	font-family: toJapanese-UD;
 	font-size: 28px;
 }
+
+.khmer{
+	font-family: toKhmer-Samsung;
+	font-size: 28px;
+}
+
+.vietnamese{
+	font-family: toVietnamese-ThuphapXuan;
+	font-size: 40px;
+}
+
+.tibetan{
+	font-family: toTibetan-Wangdi;
+	font-size: 38px;
+}
+
+.lao{
+	font-family: toLao-Dhyana;
+	font-size: 24px;
+}
+
+.chines{
+	font-family: toChinese-Ngaan;
+	font-size: 38px;
+}
+
+.coreano{
+	font-family: toKorean-Hcho;
+	font-size: 38px;
+}
+
 
 /* ____________________________________________________________________________________________________ */
 /* ●FILTRA BUSCA */
