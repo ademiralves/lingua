@@ -1,0 +1,47 @@
+@font-face {
+   font-family: FontePrincipal;
+   src: url(Andika-Regular.ttf);
+}
+
+.th_dictionary {
+  top: 236px;
+  left: 326px;
+}
+
+.th_grammar {
+  top: 230px;
+  left: 690px;
+}
+
+.th_usage {
+  top: 380px;
+  left: 330px;
+}
+
+.navUsage {
+  top: 359px;
+  left: 324px;
+}
+
+.usage_house{
+  top: 350px;
+  left: 324px;
+}
+
+.jp_body p{
+	font-size: 18px;
+}
+
+.jp_block {
+  position: absolute;
+  width: 270px;
+  height: 67.5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin: 10px;
+  /*box-shadow: 1px 4px 10px #101010;*/
+}
+
+.jp_subtitle{
+	color:brown;
+}
