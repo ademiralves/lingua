@@ -1,0 +1,100 @@
+/* ____________________________________________________________________________________________________ */
+/* ●BODY COLOR */
+/* ____________________________________________________________________________________________________ */
+@font-face {
+   font-family: myFirstFont;
+   src: url(Andika-Regular.ttf);
+}
+
+body {
+  background-color: #111111;
+  font-family: myFirstFont;
+  font-size: 15px;
+  
+}
+/* ____________________________________________________________________________________________________ */
+/* ●FILTRA BUSCA */
+/* ____________________________________________________________________________________________________ */
+
+.myInput {
+  width: 66%;
+  font-size: 20px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  position: fixed;
+  top:0;
+  left: 0;
+  
+}
+
+li {
+	display:inline-block;
+	font-size: 15px;
+	background-color:none;
+	
+}
+
+.ordem{
+	
+	display: list-item;
+	list-style-position: inside;
+	width:99%;
+	height: auto;
+	float:left;
+	margin:0 5px;
+	background-color: none;
+	margin-left: -30px;
+	margin-bottom: 4px;
+	text-align: left;
+	color: white;
+}
+
+.detailcolorRed{
+	list-style-type: '▼';
+    color: red;
+}
+
+
+.detailcolorBlue{
+	list-style-type: '▼';
+    color: blue;
+}
+
+.detailcolorGreen{
+	list-style-type: '▼';
+    color: green;
+}
+
+.detailcolorPink{
+	list-style-type: '▼';
+    color: orange;
+}
+
+.detailcolorPurple{
+	list-style-type: '▼';
+    color: #901D78;
+}
+
+a{
+	text-decoration: none;
+	color: #5BC3D5;
+}
+
+.tradutor{
+	background-color:#3379E9;
+	border-radius: 25px;
+	padding-left:5px;padding-right:5px;
+}
+
+.listento{
+    background:none;
+    border: none;
+}
+
+.tamanho{
+	font-size: 16px;
+	color: grey;
+	font-weight:bold;
+}
+

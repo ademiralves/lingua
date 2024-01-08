@@ -1,106 +1,74 @@
 <!DOCTYPE html>
 <html>
-
-<meta charset="UTF-8">
-<title>Lingûaap</title>
-
-<link rel="shortcut icon" href="IMG/logo.svg" />
-
-<link rel="stylesheet" type="text/css" href="index.css" />
+<head>
+<link rel="shortcut icon" href="cont/img/logo.svg" />
 <meta name="viewport" content="width=device-width">
-<script type="text/javascript" src="index.js"></script>
+<meta charset="UTF-8">
+<title>SELFCYCLE</title>
+
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="cont/comp/css/style.css" />
+<script type="text/javascript" src="script.js"></script>
+
+<style>
+
+html,body{
+  width: 100%;
+  height: 100%;
+  <!--overflow: hidden;-->
+}
+
+</style>
+
+</head>
 
 <body>
-  <div class="container">
-    <div id="navMenu" class="diamond">
-      <div id="mainRotCorrect" class="rotCorrect">
-		<div class="black_linguaap">
-		<a href="index.html">Lingûaap</a>
-		</div>
-	  </div>
-    </div>
-	
-	<div id="mainbg" class="nav mainbg bloco">
-      <div class="rotCorrect">
-		<div class="corpo">
-			<img src="">
-		</div>
-	  </div>
-    </div>
-    
-	<!--
-	<div id="nav1" class="nav nav1 diamond2">
-      <div class="rotCorrect">Línguas</div>
-    </div>
-    
-	<div id="nav2" class="nav nav2 diamond2">
-      <div class="rotCorrect">Línguas computacionais</div>
-    </div>
-	-->
-	
-    <div id="block_Thai" class="nav block_Thai bloco">
-      <div class="rotCorrect">
-		<div class="corpo">
-			<h2><a href="CONT/LANG/thai/cont.html"><span class="txt_outline">LÍNGUA TAILANDESA</span> <img src="IMG/thai.svg" style="max-width:150px;width: auto;"></a></h2>
-			<p class="paragraph_thai">O tailandês padrão é o idioma oficial da Tailândia, falado por cerca de 71 milhões de pessoas.</p>
-		</div>
-	  </div>
-    </div>
-	
-    <div id="block_Tupi" class="nav block_Tupi bloco">
-      <div class="rotCorrect">
-		<div class="corpo">
-			<h2><a href="CONT/LANG/tupi/cont.html"><span class="txt_outline" >LÍNGUA TUPI</span> <img src="IMG/tupi.svg" style="max-width:150px;width: auto;"></a></h2>
+
+<header>
+
+<nav>
+    <ul>
+        <li>
+			<button class="openbtn" onclick="openNav()">
+			<ruby>
+				Selecione o idioma
+				<rt>
+					<span class="tamanho">
+						Select<span class="corBlack">_</span>the<span class="corBlack">_</span>language
+					</span>
+				</rt>
+			</ruby>
+			</button> 
 			
-			<p class="paragraph_tupi"><b>Língua clássica</b> do Brasil falada pelos povos tupis e por grande parte dos colonizadores que povoavam o litoral do Brasil nos séculos XVI e XVII.</p>
-		</div>
-	  </div>
-    </div>
+			<button style="background:none;border:none;">
+				<a href="index.html" style="text-decoration:none;font-weight: bold;">
+				<h2><img src="cont/img/logo.svg" style="height:106px;width:106px" alt="Logo">Lingûaap</h2>
+				</a>
+			</button> 
+			
+		</li>
+		<li>
+		
+		</li>
+    </ul>
+</nav>
 
-	<div id="block_Jap" class="nav block_Jap bloco">
-      <div class="rotCorrect">
-		<div class="corpo">
-			<h2><a href="CONT/LANG/japanese/cont.html"><span class="txt_outline">LÍNGUA JAPONESA</span> <img src="IMG/japanese.svg" style="max-width:150px;width: auto;"></a></h2>
-			<p class="paragraph_jap">O japonês padrão é o idioma oficial do Japão, falado por cerca de 128 milhões de pessoas.</p>
-		</div>
-	  </div>
-    </div>
-	
-	<div id="block_Gn" class="nav block_Gn bloco">
-      <div class="rotCorrect">
-		<div class="corpo">
-			<h2><a href="CONT/LANG/guarani/cont.html"><span class="txt_outline" >LÍNGUA GUARANI</span> <img src="IMG/guarani.svg" style="max-width:150px;width: auto;"></a></h2>
-			<p class="paragraph_ok">Língua oficial do Paraguai</p>
-		</div>
-	  </div>
-    </div>
-	
-	<div id="block_Mbya" class="nav block_Mbya bloco">
-      <div class="rotCorrect">
-		<div class="corpo">
-			<h2><a href="CONT/LANG/mbya/cont.html"><span class="txt_outline" >LÍNGUA GUARANI MBYA</span> <img src="IMG/mbya.svg" style="max-width:150px;width: auto;"></a></h2>
-			<p class="paragraph_ok">Guarani falado pelos mbiás no Brasil, Paraguai e Argentina</p>
-		</div>
-	  </div>
-    </div>
-	
-	<div id="block_Ok" class="nav block_Ok bloco">
-      <div class="rotCorrect">
-		<div class="corpo">
-			<h2><a href="CONT/LANG/okinawan/cont.html"><span class="txt_outline" >LÍNGUA OKINAWANA</span> <img src="IMG/okinawan.svg" style="max-width:150px;width: auto;"></a></h2>
-			<p class="paragraph_ok">Okinawano abordado aqui é a língua clássica do Reino de Ryukyu.</p>
-		</div>
-	  </div>
-    </div>
+</header>
 
- <!--
-	
-	<div id="nav6" class="nav nav6 diamond">
-      <div class="rotCorrect"><i class="fa fa-cogs fa-2x" aria-hidden="true"></i></div>
-    </div>
--->
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  
+  <iframe name="iframe1" class="proportion" scrolling="no"  src="cont/global.html" ></iframe>
+  
+</div>
 
-  </div>
+<iframe name="main_iframe" src="cont/cont.html" frameborder="0" scrolling="yes"  
+	height="3000px" 
+	width="100%"                                 
+	align="center">
+</iframe>
+
+
 </body>
 
 
@@ -108,5 +76,8 @@
 </html>
 
 <!--
-https://codepen.io/MitchES/pen/dRMQdx
+style="overflow: hidden; 
+	height: 100%;
+	width: 98.7%; "
+
 -->
