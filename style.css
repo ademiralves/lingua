@@ -1,0 +1,204 @@
+@font-face {
+   font-family: mainFont;
+   src: url(Andika-Regular.ttf);
+}
+
+@font-face {
+   font-family: thaifont;
+   src: url(Sarabun-Regular.ttf);
+}
+
+@font-face {
+   font-family: japanesefont;
+   src: url(UDDigiKyokashoN-R.ttc);
+}
+
+body{
+	font-family: mainFont;
+}
+
+.topo{
+	background-color: black;
+	text-align: center;
+	color: #A52A2A;
+}
+
+.superscript{
+	font-size: 14px;
+	color: #555555;
+}
+
+.spaceColor{
+	color:white;
+}
+.spaceColor2{
+	color:#EEAF28;
+}
+
+.langSearch{
+	background-color: #EEAF28;
+}
+
+button{
+	font-family: mainFont;
+	font-size: 16px;
+	background-color: none;
+	background: none;
+	border: 2px solid #A52A2A;
+	border-radius: 5px;
+	box-shadow: 3px 4px 0px 0px #A52A2A;
+	margin-bottom: 6px;
+	font-weight:bold;
+}
+
+.titulo{
+	border: 2px solid #1564ad;
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	cursor: pointer;
+}
+
+.titulo2{
+	border: 2px solid #1564AD;
+	box-shadow: 3px 4px 0px 0px #1564AD;
+	background: #EEAF28;
+	cursor: pointer;
+}
+
+.titulo3{
+	border: 2px solid #A52A2A;
+	box-shadow: 3px 4px 0px 0px #A52A2A;
+	background: #EEAF28;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 14px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* ____________________________________________________________________________________________________ */
+/* ●MODAL 2 */
+/* ____________________________________________________________________________________________________ */
+
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+}
+
+/* Modal Content */
+.modal-content2 {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 14px;
+}
+
+/* The Close Button */
+.close2 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ____________________________________________________________________________________________________ */
+/* ●FILTRA BUSCA */
+/* ____________________________________________________________________________________________________ */
+
+.myInput {
+  width: 66%;
+  font-size: 20px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  position: fixed;
+  top:0;
+  left: 0;
+  
+}
+
+li {
+	display:inline-block;
+	font-size: 15px;
+	background-color:none;
+	
+}
+
+.ordem{
+	
+	display: list-item;
+	list-style-position: inside;
+	width:99%;
+	height: auto;
+	float:left;
+	margin:0 5px;
+	background-color: none;
+	margin-left: -30px;
+	margin-bottom: 4px;
+	text-align: left;
+}
+
+.azuljp{
+	color: blue;
+	font-size: 20px;
+	font-family: japanesefont;
+}
+
+.lessonBlock{
+	text-align: left;
+	
+}

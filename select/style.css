@@ -1,0 +1,72 @@
+@font-face {
+   font-family: mainFont;
+   src: url(Andika-Regular.ttf);
+}
+
+body{
+	font-family: mainFont;
+}
+
+.superscript{
+	font-size: 14px;
+	color: #464748;
+}
+
+.spaceColor{
+	color:#EEAF28;
+}
+
+.langSearch{
+	background-color: black;
+}
+
+button{
+	font-family: mainFont;
+	font-size: 16px;
+	background: #EEAF28;
+	border: 3px solid #A52A2A;
+	border-radius: 5px;
+	margin-bottom: 4px;
+}
+
+.titulo{
+	border: 2px solid #1564ad;
+	box-shadow: 3px 4px 0px 0px #1564ad;
+}
+
+/* ____________________________________________________________________________________________________ */
+/* ●FILTRA BUSCA */
+/* ____________________________________________________________________________________________________ */
+
+.myInput {
+  width: 66%;
+  font-size: 20px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  position: fixed;
+  top:0;
+  left: 0;
+  
+}
+
+li {
+	display:inline-block;
+	font-size: 15px;
+	background-color:none;
+	
+}
+
+.ordem{
+	
+	display: list-item;
+	list-style-position: inside;
+	width:99%;
+	height: auto;
+	float:left;
+	margin:0 5px;
+	background-color: none;
+	margin-left: -30px;
+	margin-bottom: 4px;
+	text-align: left;
+}

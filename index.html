@@ -1,83 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="shortcut icon" href="cont/img/logo.svg" />
-<meta name="viewport" content="width=device-width">
+
+<link rel="shortcut icon" href="img/logo.svg" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
-<title>SELFCYCLE</title>
 
-<link rel="stylesheet" href="style.css" />
-<link rel="stylesheet" href="cont/comp/css/style.css" />
-<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" 
+href="style.css" />
 
-<style>
 
-html,body{
-  width: 100%;
-  height: 100%;
-  /* overflow: hidden; */
-}
 
-</style>
 
 </head>
-
 <body>
 
-<header>
+<!-- Trigger/Open The Modal -->
+<button class="titulo" id="myBtn">
+	<ruby>
+		Selecione o idioma
+			<rt>
+				<span class="superscript">
+						Select<span class="spaceColor">_</span>the<span class="spaceColor">_</span>language
+				</span>
+			</rt>
+	</ruby>
+</button>
 
-<nav>
-    <ul>
-        <li>
-			<button class="openbtn" onclick="openNav()">
-			<ruby>
-				Selecione o idioma
-				<rt>
-					<span class="tamanho">
-						Select<span class="corBlack">_</span>the<span class="corBlack">_</span>language
-					</span>
-				</rt>
-			</ruby>
-			</button> 
-			
-			<button style="background:none;border:none;">
-				<a href="index.html" style="text-decoration:none;font-weight: bold;">
-				<h2><img src="cont/img/logo.svg" style="height:106px;width:106px" alt="Logo">Lingûaap</h2>
-				</a>
-			</button> 
-			
-		</li>
-		<li>
-		
-		</li>
-    </ul>
-</nav>
+<a href="index.html">
+	<div class="topo">
+	<h2>
+	<img src="img/top-logo.svg" style="max-width:100px;width: auto;" alt="Logo"> <br>
+	</h2>
+	</div>
+</a>
 
-</header>
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
-<div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  
-  <iframe name="iframe1" class="proportion" scrolling="no"  src="cont/global.html" ></iframe>
-  
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+	<p>
+	<iframe src="select/selector.html"
+	style="border-radius: 14px;"
+	class="proportion" scrolling="yes"	
+	height="450px" width="100%">
+	</iframe>
+	</p>
+	
+  </div>
+
 </div>
-
-<iframe name="main_iframe" src="cont/cont.html" frameborder="0" scrolling="yes"  
-	height="3000px" 
-	width="100%"                                 
-	align="center">
-</iframe>
-
 
 </body>
 
-
+<script type="text/javascript" 
+src="script.js">
+</script>
 
 </html>
-
-<!--
-style="overflow: hidden; 
-	height: 100%;
-	width: 98.7%; "
-
--->
