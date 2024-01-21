@@ -3,16 +3,6 @@
    src: url(Andika-Regular.ttf);
 }
 
-@font-face {
-   font-family: thaifont;
-   src: url(Sarabun-Regular.ttf);
-}
-
-@font-face {
-   font-family: japanesefont;
-   src: url(UDDigiKyokashoN-R.ttc);
-}
-
 body{
 	font-family: mainFont;
 }

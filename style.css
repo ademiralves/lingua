@@ -205,7 +205,25 @@ li {
 	font-family: japanesefont;
 }
 
+.azulthai{
+	color: blue;
+	font-size: 30px;
+	font-family: thaifont;
+}
+
 .lessonBlock{
 	text-align: left;
 	
+}
+
+ruby {
+  display: inline-flex;
+  flex-direction: column-reverse;
+}
+
+rb, rt {
+  display: inline;
+  line-height: 1.3;
+  font-size:20px;
+  font-family: mainFont;
 }
